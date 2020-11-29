@@ -1,4 +1,4 @@
-# bake.zoid.in
+# prerender.zoid.in
 
 - A deployment of prerender
 - Dockerized
