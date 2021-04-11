@@ -1,16 +1,10 @@
-# prerender.zoid.in
+# prerender-docker
 
-- A deployment of prerender
-- Dockerized
+- Browserless + Prerender Dockerfile
 
-# Setup
+# Run Locally
 
 ```
 docker build . -t prerender
-
-docker tag prerender:latest divyenduz/prerender:latest
-
 docker run -p 3000:3000 prerender:latest
-
-docker push divyenduz/prerender:latest
 ```
