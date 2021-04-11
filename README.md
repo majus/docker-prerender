@@ -1,4 +1,4 @@
-# prerender-docker
+# docker-prerender
 
 - Browserless + Prerender Dockerfile
 
