@@ -11,4 +11,6 @@ const server = prerender({
     '--hide-scrollbars',
   ],
 });
+server.use(prerender.whitelist());
+server.use(prerender.httpHeaders());
 server.start();
